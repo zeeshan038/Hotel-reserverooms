@@ -1,0 +1,55 @@
+/* //Card */
+.Services{
+  background-color: rgb(252, 255, 255);
+  margin-top: 7rem;
+  margin-right: 2rem;
+display: flex;
+justify-content: space-between;
+
+}
+img{
+  height: 100px;
+  color: #00917c;
+  margin: 1rem 0;
+}
+h2{
+  margin:1rem 0;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 4rem;
+   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 400px;
+    height: 300px;
+    border-radius: 14px;
+    margin-left: 50px;
+    background-color: white;
+    
+}
+.card-content{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+ 
+.service-heading{
+  color: #00917c;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.6rem;
+
+  
+}
+  .slider-container {
+    width: 160%; /* Make sure the container takes the full width of its parent */
+    max-width: 200px; /* Set a maximum width if needed */
+    margin: 0; /* Center the container horizontally */
+    padding: 20px; /* Add some spacing if desired */
+  
+  }
+  
+  .Slider {
+    width: 100%; /* Make the slider take the full width of its container */
+  }
+  

@@ -1,0 +1,82 @@
+.testimonials{
+    margin-top: 6rem;
+}
+.test-card{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 900px;
+    height: 300px;
+    border-radius: 16px;
+    margin-left: 50px;
+    /* background-color: white; */
+    margin-top : 4rem;
+  
+    
+}
+.test-content{
+    margin-left: 4rem;
+}
+
+.slider-container {
+    width: 190%; /* Make sure the container takes the full width of its parent */
+    max-width: 2000px; /* Set a maximum width if needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add some spacing if desired */
+  
+  }
+  
+  .Slider {
+    width: 100%; /* Make the slider take the full width of its container */
+  }
+  .test-img{
+    border-radius : 50%;
+    height: 50px;
+    width: 50px;
+    
+
+  }
+  .test-message{
+    width: 35%;
+  }
+  .test-info{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  h4{
+    margin-left: 2rem;
+  }
+  .test-heading{
+    font-weight: bold;
+    color:  #046758;
+  }
+  .test-para{
+    opacity: 0.6;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top:2rem;
+  }
+
+  /* responsiveness */
+
+  @media  screen and (min-width : 800px) {
+
+    .test-main-content-container{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+    }
+    .test-para{
+      opacity: 0.6;
+      margin-left: 2rem;
+      margin-right: 2rem;
+      margin-top:2rem;
+      width: 50%;
+    }
+    
+  }

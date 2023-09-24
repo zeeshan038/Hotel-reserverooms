@@ -1,0 +1,154 @@
+.home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+   height: 830px;
+}
+.logo{
+  color: white;
+}
+.home::before{
+    content: "";
+ 
+    background-image: linear-gradient(rgba(0,0,0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/hotel-img.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+  
+
+ 
+    z-index: -1;
+}
+  .home-main-text{
+    color: aliceblue;
+    font-size: 3rem;
+}
+
+.see-video {
+    margin-top: 4rem;
+  background-color: #00917c;
+  color: white;
+  padding: 9px 15px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.see-video:hover{
+  background-color: #056053;
+}
+
+/* Form  */
+
+.checkin-form{
+  display: flex;
+justify-content: center;
+  align-items:center;
+  flex-direction: column;
+  background-color: white;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  box-shadow: 0px 0px 6px 0.4px #838383 ;
+  height: 300px;
+
+
+}
+.labels{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+label
+{
+ margin: 0 1.6rem;
+}
+.Arrival-date{
+  padding: 0.5rem  7rem;
+  
+ margin-top: 1.3rem;
+  border-radius: 13px;
+
+ 
+}
+.Departure-date{
+  padding: 0.5rem 7rem  ;
+ 
+  border-radius: 13px;
+  margin:15px 0;
+}
+.noofPersons{
+  padding: 0.5rem 9rem;
+  
+  border-radius: 13px;
+}
+.find-now{
+  padding: 0.5rem  10rem;
+  background-color:#00917c;
+  color: white;
+  margin-top: 1.2rem;
+   border-radius: 13px;
+   cursor: pointer;
+   transition : 0.5s ease-in-out;
+   
+}
+.find-now:hover{
+  background-color: #056053;
+}
+input[type=date]::-webkit-datetime-edit{
+  color:transparent;
+}
+input[type=date]:focus::-webkit-datetime-edit {
+  color: black !important;
+}
+
+@media screen and (min-width:800px) {
+  .home{
+    height: 890px;
+  }
+  .checkin-form{
+   flex-direction: row;
+    height: 140px;
+  
+  }
+  .labels{
+    flex-direction: row;
+  }
+  .Arrival-date{
+    padding: 0.5rem 9px;
+    
+   margin-top: 1rem;
+    border-radius: 13px;
+  
+   
+  }
+  .Departure-date{
+    padding: 0.5rem 9px  ;
+   
+    border-radius: 13px;
+    margin:8px 0;
+  }
+  .noofPersons{
+    padding: 0.5rem 10px;
+    
+    border-radius: 13px;
+  }
+  .find-now{
+    padding: 0.5rem  4rem;
+    margin: 0 10px;
+   margin-top: 0.3rem;
+ 
+     
+  }
+  label
+{
+ margin: 0 1rem;
+}
+}
